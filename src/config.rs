@@ -83,6 +83,8 @@ pub enum Os {
     Solaris,
     /// Microsoft Windows
     Windows,
+    /// WebAssembly Systems Interface
+    Wasi,
     /// With this field empty
     #[serde(rename = "")]
     None,
